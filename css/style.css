@@ -1,0 +1,281 @@
+.container, .container-fluid {
+	background-color: #eeeeee;
+}
+.dividerBar {
+	border-bottom: 2px solid #000;
+	margin-bottom: 10px;
+	padding: 0;
+}
+.dividerBar a:hover, .eventsTop a:hover {
+	text-decoration: none;
+	color: #ffa500;
+}
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+a {
+	margin-top: 25px;
+	padding-left: 0;
+	padding-right: 0;
+	color: #000;
+	text-align: right;
+}
+body {
+	background-color: #c2c2d6;
+}
+
+/*********************** HEADER ***********************/
+
+header {
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #333;
+}
+header img {
+	margin: 10px auto;
+}
+header a {
+	padding: 3px 12px;
+	background-color: #cccccc;
+	margin: 10px 0px;
+	color: #000;
+	border-radius: 5px;
+	text-align: center;
+}
+header a:hover {
+	text-decoration: none;
+	color: #ffa500;
+}
+.searchInput {
+	margin-top: 10%;
+}
+.searchInput button {
+	border-left: none;
+	border-radius: 8px;
+}
+.searchInput input {
+	box-shadow: none;
+	border-radius: 8px;
+}
+
+/******************* NAVBAR ***************************/
+.navbar {
+	border-top: 2px solid #000;
+}
+.nav .navbar-default, .nav .navbar-collapse{
+	margin: 20px 0 50px;
+	background-color: rgba(0,0,0,0);
+	border: none;
+}
+.navbutton {
+	border: none;
+	text-align: center;
+}
+.navbar-collapse {
+	background-color: #fff;
+	border-radius: 15px;
+}
+.navbar-default li a {
+	background-color: #fff;
+	border: 2px solid #d3d3d3;
+	margin: 5px -1px;
+	padding: 3px 0px;
+}
+.navbar-default li a:hover {
+	background-color: #ffa500;
+}
+
+/************** MAIN SECTION ***************************/
+
+#mainSection {
+	text-align: center;
+	position: relative;
+}
+.carousel {
+	margin-top: 20px;
+}
+.scrollingPictureThing {
+	padding: 0;
+}
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none;
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	text-shadow: #000;
+}
+.events {
+	text-align: left;
+	background-color: #d3d3d3;
+	margin-top: 20px;
+}
+.eventsTop {
+	border-bottom: 2px solid #000;
+}
+.eventsTop .row {
+	background-color: #d3d3d3;
+}
+.eventsTop h4 {
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 1.2em;
+}
+.eventsTop a {
+	margin-top: 8px;
+	padding-left: 0;
+	padding-right: 0;
+	color: #000;
+	text-align: right;
+}
+.eventsBottom ul, .linkSection ul {
+	padding-left: 0;
+}
+.eventsBottom ul li, .pageSwitch li {
+	margin-top: 25px;
+	font-size: 1.2em;
+	padding: 5px;
+	background-color: #cccccc;
+}
+@media (max-width: 1200px) {
+	.eventsBottom ul li {
+		margin-top: 10px;	
+	}
+}
+@media (min-width: 992px) {
+  .scrollingPictureThing {
+    padding-right: 15px;
+  }
+}
+.eventsBottom a {
+	text-align: left;
+	text-decoration: none;
+}
+.eventsBottom ul li:hover {
+	background-color: #ffa500;
+}
+.eventsBottom button {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-radius: 10px;
+	background-color: #000;
+	color: #fff;
+}
+.eventsBottom button:hover {
+	background-color: #ffa500;
+}
+
+/********************************** ARTICLES ********************************/
+
+.articleSection {
+	margin-top: 30px;
+}
+.articleSection a {
+	margin-top: 25px;
+	padding-left: 0;
+	padding-right: 0;
+	color: #000;
+	text-align: right;
+}
+.articleSection div:nth-child(3) {
+	margin-top: -20px;
+}
+.articles {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 0;
+	padding-bottom: 50px;
+	background-color: #cccccc;
+	overflow: hidden;
+}
+@media (min-width: 992px) {
+	.articles {
+		height: 520px;
+		overflow: hidden;
+	}
+}
+.articles small {
+	margin-bottom: 20px;
+}
+.articles img {
+	margin: 0 auto;
+	padding: 0 10px 10px 0;
+}
+.articles a {
+	position: absolute;
+	bottom: 0;
+	right: 2%;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: #000;
+	color: #fff;
+}
+.articles p {
+	padding-right: 10px;
+}
+.articles .embed-responsive-item {
+	padding-right: 10px;
+	padding-top: 20px;
+}
+.pageSwitch li {
+	border-radius: 10px;
+	background-color: #000;
+	padding: 0 12px;
+}
+.pageSwitch li a {
+	color: #fff;
+}
+.pageSwitch li:hover {
+	background-color: #ffa500;
+}
+
+/**************************** PHOTOS ******************/
+
+.owlie {
+	margin-top: 20px;
+}
+
+
+/************************ SOCIAL MEDIA & LINKS *************/
+
+.socialSection {
+	z-index: 1;
+}
+.socialSection a img {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 0 5px;
+}
+.linkSection h2 {
+	z-index: 0;
+	clear: both;
+}
+.linkSection li {
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+.linkSection li a:hover {
+	text-decoration: none;
+	color: #ffa500;
+}
+.lastRow {
+	border-bottom: 2px solid #000;
+}
+
+/***************** FOOTER ****************************/
+
+footer {
+	margin-top: 20px;
+}
